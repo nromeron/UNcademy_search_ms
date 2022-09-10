@@ -6,7 +6,7 @@ const Sede = db.sede
 const addSede = async (req, res) => {
 
     let info = {
-        title: req.body.title,
+        nombre: req.body.nombre,
     }
 
     const sede = await Sede.create(info)

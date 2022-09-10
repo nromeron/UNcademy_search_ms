@@ -13,8 +13,8 @@ app.use(express.urlencoded({ extended: true }))
 
 
 // routers
-const sedeRouter = require('./routes/sedeRouter')
-app.use('/api/sede', sedeRouter)
+const router = require('./routes/router.js')
+app.use('/buscador', router)
 
 
 //port

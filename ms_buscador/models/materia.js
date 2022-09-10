@@ -1,18 +1,5 @@
-const { Model } = require('sequelize');
-
 module.exports = (sequelize, DataTypes) => {
-
-    class Materia extends Model{
-        static associate(models) {
-            Materia.hasMany(models.Grupo, {
-                foreignKey: {
-                  allowNull: false,
-                }
-              });
-            Materia.belongsTo(models.PlanEstudio)
-        }
-    }
-    Materia.init({
+    const Materia = sequelize.define("materia", {
         nombre: {
             type: DataTypes.STRING,
             allowNull: false,
@@ -48,10 +35,6 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING,
             allowNull: false,
             },
-    }, {
-        sequelize,
-        modelName: 'Materia',
-      })
-
+    })
     return Materia
 }

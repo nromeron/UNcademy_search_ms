@@ -1,19 +1,5 @@
-const { Model } = require('sequelize');
-
 module.exports = (sequelize, DataTypes) => {
-
-    class PlanEstudio extends Model{
-        static associate(models) {
-            PlanEstudio.hasMany(models.Materia, {
-                foreignKey: {
-                  allowNull: false,
-                }
-              });
-            PlanEstudio.belongsTo(models.Facultad)
-            PlanEstudio.belongsTo(models.NivelEstudio)
-        }
-    }
-    PlanEstudio.init({
+    const PlanEstudio = sequelize.define("planEstudios", {
         nombre: {
             type: DataTypes.STRING,
             allowNull: false,
@@ -46,10 +32,6 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.INTEGER,
             allowNull: false
         },
-    }, {
-        sequelize,
-        modelName: 'PlanEstudio',
-      })
-
+    });
     return PlanEstudio
 }

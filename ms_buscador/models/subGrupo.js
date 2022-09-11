@@ -8,14 +8,14 @@ module.exports = (sequelize, DataTypes) => {
         }
     }
     subGrupo.init({
-        /*numerosubGrupo: {
+        identificadorSubGrupo: {
             type: DataTypes.INTEGER,
             allowNull: false,
             unique: {
                 args: true,
-                msg: "El numero del subGrupo ya se encuentra en uso."
+                msg: "El identificador del subGrupo ya se encuentra en uso."
               }
-            },*/
+            },
         docenteEspecifico: {
             type: DataTypes.STRING,
             allowNull: false,

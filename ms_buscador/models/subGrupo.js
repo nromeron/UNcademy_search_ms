@@ -9,7 +9,7 @@ module.exports = (sequelize, DataTypes) => {
     }
     subGrupo.init({
         identificadorSubGrupo: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.STRING,
             allowNull: false,
             unique: {
                 args: true,

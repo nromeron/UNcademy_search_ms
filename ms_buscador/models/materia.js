@@ -11,6 +11,8 @@ module.exports = (sequelize, DataTypes) => {
               });
             Materia.belongsTo(models.PlanEstudio)
         }
+
+        // static  async encontar (Id) 
     }
     Materia.init({
         nombre: {

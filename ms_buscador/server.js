@@ -29,7 +29,7 @@ app.use(bodyParser.json());
 
 app.use(express.urlencoded({ extended: true }))
 
-//require("./routes")(app);
+require("./routes")(app);
 
 app.get('/', (req, res) => res.status(200).send({
      message: 'Bienvenido a alguna mierda',

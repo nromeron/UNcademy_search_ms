@@ -1,65 +1,33 @@
 const db = require('../models')
-const Materia = db.Materia
+const Grupo = db.Grupo
 const Op = db.Sequelize.Op;
 
 
-exports.findAllMaterias= async(req, res) =>{
-    const materia = await Materia.findAll()
-    res.send(materia)
-};
-
-exports.findMateriaByName= async(req, res) =>{
-    const nombre = req.params.nombre;
-    const materia = await Materia.findAll({where:{nombre: nombre},
+exports.findGroupByProfesor= async(req, res) =>{
+    const profesor = req.params.profesor;
+    const grupo = await Grupo.findAll({where:{docenteTitular: profesor},
         include: [
             {
-                model: db.PlanEstudio,
+                model: db.Materia,
                 required: true,
-                include: [
-                    {
-                        model: db.NivelEstudio,
-                        required: true
-                    },
-                    {
-                        model: db.Facultad,
-                        required: true,
-                        include: {
-                            model: db.Sede,
-                            required: true
-                        }
-                    },
-                ]
             }
         ]})
-    res.status(200).send(materia)
+    res.status(200).send(grupo)
 };
 
-exports.findMateriaBycode= async(req, res) =>{
-    const codigoMateria = req.params.codigoMateria;
-    const materia = await Materia.findAll({where:{codigoMateria: codigoMateria},
+exports.findGroupBynumer= async(req, res) =>{
+    const numero = req.params.numero;
+    const grupo = await Grupo.findAll({where:{numeroGrupo: numero},
         include: [
             {
-                model: db.PlanEstudio,
+                model: db.Materia,
                 required: true,
-                include: [
-                    {
-                        model: db.NivelEstudio,
-                        required: true
-                    },
-                    {
-                        model: db.Facultad,
-                        required: true,
-                        include: {
-                            model: db.Sede,
-                            required: true
-                        }
-                    },
-                ]
             }
         ]})
-    res.status(200).send(materia)
+    res.status(200).send(grupo)
 };
 
+/*
 exports.findMateriaByType= async(req, res) =>{
     const tipologia = req.params.tipologia;
     const materia = await Materia.findAll({where:{tipologia: tipologia},
@@ -186,4 +154,4 @@ exports.findMateriaByPlanEstudio= async(req, res) =>{
         }
     ]})
     res.status(200).send(materia)
-};
+}; */

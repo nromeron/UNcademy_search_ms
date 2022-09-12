@@ -7,3 +7,8 @@ exports.findAllFacultades = async(req, res) =>{
     res.send(facultad)
 };
 
+exports.findFacultadById= async(req, res) =>{
+    const id = req.params.id;
+    const facultad = await Facultad.findAll({where:{id: id}})
+    res.status(200).send(facultad)
+};

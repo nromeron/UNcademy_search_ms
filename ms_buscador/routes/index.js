@@ -3,6 +3,7 @@ const facultadController = require("../controllers/facultadController.js")
 const materiaController = require("../controllers/materiaController.js")
 const planEstudioController = require("../controllers/planEstudioController.js")
 const grupoController = require("../controllers/grupoController.js")
+const subGrupoController = require("../controllers/subGrupoController.js")
 
 module.exports = (app) =>{
 
@@ -32,7 +33,18 @@ module.exports = (app) =>{
 
     //grupo
     router.get('/groupByProfesor/:profesor', grupoController.findGroupByProfesor)
-    router.get('/groupBynumer/:numero', grupoController.findGroupBynumer)
+    router.get('/groupByNumer/:numero', grupoController.findGroupBynumer)
+    router.get('/groupByQuota', grupoController.findGroupByQuota)
+    router.put('/updateGroup/:id', grupoController.updateGroup)
+    router.get('/groupById/:id', grupoController.findGroupById)
+
+    //SubGrupo
+    router.get('/subGrupoById/:id', subGrupoController.findSubGroupById)
+    router.get('/subGrupoByProfesor/:profesor', subGrupoController.findSubGroupByProfesor)
+    router.get('/subGrupoByClass/:salon', subGrupoController.findGroupByClassRoom)
+    router.get('/subGrupoByDay/:dia', subGrupoController.findGroupByDays)
+    router.get('/subGrupoByHour/:hora', subGrupoController.findGroupByHour)
+    router.get('/subGrupoByGrupoId/:GrupoId', subGrupoController.findSubGrupoByGrupo)
 
     app.use("/search", router); 
 }

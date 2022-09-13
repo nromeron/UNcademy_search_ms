@@ -2,7 +2,7 @@ const { Model } = require('sequelize');
 
 module.exports = (sequelize, DataTypes) => {
 
-    class NivelEstudio extends Model{
+    class NivelEstudio extends Model{ 
         static associate(models) {
             NivelEstudio.hasMany(models.PlanEstudio, {
                 foreignKey: {
@@ -22,7 +22,8 @@ module.exports = (sequelize, DataTypes) => {
           }
     }, {
         sequelize,
-        modelName: 'NivelEstudio'
+        modelName: 'NivelEstudio',
+        Freezetablename: true
       })
 
     return NivelEstudio

@@ -2,7 +2,7 @@
 
 module.exports = {
   async up (queryInterface, Sequelize) {
-    return queryInterface.bulkInsert('Subgrupos', [{
+    return queryInterface.bulkInsert('subGrupos', [{
       id:1,
       identificadorSubGrupo: "1-1",
       docenteEspecifico: "Sandra Liliana Rojas Martinez",
@@ -497,6 +497,6 @@ module.exports = {
   },
 
   async down (queryInterface, Sequelize) {
-    return queryInterface.bulkDelete('Subgrupos', null, {});
+    return queryInterface.bulkDelete('subGrupos', null, {});
   }
 };

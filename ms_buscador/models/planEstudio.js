@@ -49,6 +49,7 @@ module.exports = (sequelize, DataTypes) => {
     }, {
         sequelize,
         modelName: 'PlanEstudio',
+        Freezetablename: true
       })
 
     return PlanEstudio

@@ -28,6 +28,7 @@ module.exports = (sequelize, DataTypes) => {
     }, {
         sequelize,
         modelName: 'subGrupo',
+        Freezetablename: true
       })
 
     return subGrupo

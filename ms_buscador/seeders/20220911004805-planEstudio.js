@@ -2,7 +2,7 @@
 
 module.exports = {
   async up (queryInterface, Sequelize) {
-    return queryInterface.bulkInsert('Planestudios', [{
+    return queryInterface.bulkInsert('PlanEstudios', [{
       id:1,
       nombre: "Ingeniería de Sistemas y Computación",
       creditosDisOpt: 21,
@@ -111,6 +111,6 @@ module.exports = {
   },
 
   async down (queryInterface, Sequelize) {
-    return queryInterface.bulkDelete('Planestudios', null, {});
+    return queryInterface.bulkDelete('PlanEstudios', null, {});
   }
 };

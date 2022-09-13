@@ -32,7 +32,7 @@ app.use(express.urlencoded({ extended: true }))
 require("./routes")(app);
 
 app.get('/', (req, res) => res.status(200).send({
-     message: 'Bienvenido a alguna mierda',
+     message: 'Bienvenido a UNcademy search',
 }));
 const port = parseInt(process.env.PORT, 10) || 8080;
 app.set('port', port);

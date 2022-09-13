@@ -11,10 +11,6 @@ module.exports = (sequelize, DataTypes) => {
         identificadorSubGrupo: {
             type: DataTypes.STRING,
             allowNull: false,
-            unique: {
-                args: true,
-                msg: "El identificador del subGrupo ya se encuentra en uso."
-              }
             },
         docenteEspecifico: {
             type: DataTypes.STRING,

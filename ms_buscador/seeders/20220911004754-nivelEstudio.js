@@ -9,7 +9,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {id:2,
-      nombre: "posgrado/Maestria",
+      nombre: "Posgrado/Maestria",
       createdAt: new Date(),
       updatedAt: new Date()
     },

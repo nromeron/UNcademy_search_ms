@@ -3,7 +3,7 @@
 module.exports = {
   async up (queryInterface, Sequelize) {
     return queryInterface.bulkInsert('Materia', [{
-      id:1,
+      id:1, //---sistemas
       nombre: "Programación de computadores",
       codigoMateria: 2015734,
       creditos: 3,
@@ -19,10 +19,7 @@ module.exports = {
       cupos: 30,
       tipologia: "Fundamentación obligatoria",
       descripcion: "Esta es la descripción de Programación orientada a objetos",
-      prerequisitos: "Programación de computadores",
-
-
-      
+      prerequisitos: "Programación de computadores", 
     },
     {id:3,
       nombre: "Computación paralela y distribuida",
@@ -31,10 +28,7 @@ module.exports = {
       cupos: 25,
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Computación paralela y distribuida",
-      prerequisitos: "Sistemas operativos, Algoritmos ",
-
-
-      
+      prerequisitos: "Sistemas operativos, Algoritmos ", 
     },
     {id:4,
       nombre: "Elementos de computadores",
@@ -44,9 +38,6 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Elementos de computadores",
       prerequisitos: "Introducción a la ingeniería de sistemas y computación",
-
-
-      
     },
     {id:5,
       nombre: "Métodos numéricos",
@@ -56,11 +47,8 @@ module.exports = {
       tipologia: "Fundamentación optativa",
       descripcion: "Esta es la descripción de Métodos numéricos",
       prerequisitos: "Cálculo en varias variables",
-
-
-      
     },
-    {id:6,
+    {id:6,  //----Mecanica
       nombre: "Control",
       codigoMateria: 2016493,
       creditos: 4,
@@ -68,9 +56,6 @@ module.exports = {
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Control",
       prerequisitos: "Señales y sistemas II",
-
-
-      
     },
     {id:7,
       nombre: "Señales y Sistemas II",
@@ -80,9 +65,6 @@ module.exports = {
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Señales y Sistemas II",
       prerequisitos: "Señales y sistemas I, Variable compleja",
-
-
-      
     },
     {id:8,
       nombre: "Automatización de Procesos de Manufactura",
@@ -92,11 +74,8 @@ module.exports = {
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Automatización de Procesos de Manufactura",
       prerequisitos: "Procesos de manufactura",
-
-
-      
     },
-    {id:9,
+    {id:9,   
       nombre: "Diseño Mecatrónico",
       codigoMateria: 2017282,
       creditos: 3,
@@ -104,11 +83,8 @@ module.exports = {
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Diseño Mecatrónico",
       prerequisitos: "Resistencia de Materiales",
-
-
-      
     },
-    {id:10,
+    {id:10,  //----Electrica
       nombre: "Aislamiento eléctrico",
       codigoMateria: 2016850,
       creditos: 3,
@@ -116,9 +92,6 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Aislamiento eléctrico",
       prerequisitos: "Transmisión y Distribución",
-
-
-      
     },
     {id:11,
       nombre: "Instalaciones eléctricas",
@@ -128,9 +101,6 @@ module.exports = {
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Instalaciones eléctricas",
       prerequisitos: "Circuitos Eléctricos II",
-
-
-      
     },
     {id:12,
       nombre: "Circuitos Eléctricos I",
@@ -140,9 +110,6 @@ module.exports = {
       tipologia: "Disciplinar olbligatoria",
       descripcion: "Esta es la descripción de Circuitos Eléctricos I",
       prerequisitos: "Álgebra Lineal",
-
-
-      
     },
     {id:13,
       nombre: "Introducción a ingeniería eléctrica",
@@ -152,9 +119,6 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Introducción a ingeniería eléctrica",
       prerequisitos: "Ninguno",
-
-
-      
     },
     {id:14,
       nombre: "Subestaciones eléctricas",
@@ -164,11 +128,8 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Subestaciones eléctricas",
       prerequisitos: "Análisis de Sistemas de Potencia",
-
-
-      
     },
-    {id:15,
+    {id:15, //---Medicina
       nombre: "Inmunología",
       codigoMateria: 2023105,
       creditos: 2,
@@ -176,9 +137,6 @@ module.exports = {
       tipologia: "Fundamentacion obligatoria",
       descripcion: "Esta es la descripción de Inmunología",
       prerequisitos: "Fisiología I, Genética",
-
-
-      
     },
     {id:16,
       nombre: "Hormonas",
@@ -188,9 +146,6 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Hormonas",
       prerequisitos: "Fisiología I, Fisiología y bioquímica de sistemas",
-
-
-      
     },
     {id:17,
       nombre: "Medicina y sociedad",
@@ -199,10 +154,7 @@ module.exports = {
       cupos: 150,
       tipologia: "Fundamentación obligatoria",
       descripcion: "Esta es la descripción de Medicina y sociedad",
-      prerequisitos: "Salud y sociedad",
-
-
-      
+      prerequisitos: "Salud y sociedad", 
     },
     {id:18,
       nombre: "Salud y sociedad",
@@ -212,9 +164,6 @@ module.exports = {
       tipologia: "Fundamentación obligatoria",
       descripcion: "Esta es la descripción de Salud y sociedad",
       prerequisitos: "Ninguno",
-
-
-      
     },
     {id:19,
       nombre: "Administracion en salud I",
@@ -224,9 +173,6 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Administracion en salud I",
       prerequisitos: "Introducción a la medicina interna, Epidemiología",
-
-
-      
     },
     {id:20,
       nombre: "Atención primaria en salud",
@@ -236,9 +182,6 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Atención primaria en salud",
       prerequisitos: "Medicina y sociedad",
-
-
-      
     },
     {id:21,
       nombre: "Bioquímica clínica",
@@ -248,9 +191,6 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Bioquímica clínica",
       prerequisitos: "Bioquímica I",
-
-
-      
     },
     {id:22,
       nombre: "Comunicación científica",
@@ -259,10 +199,7 @@ module.exports = {
       cupos: 60,
       tipologia: "Fundamentación optativa",
       descripcion: "Esta es la descripción de Comunicación científica",
-      prerequisitos: "ninguno",
-
-
-      
+      prerequisitos: "ninguno", 
     },
     {id:23,
       nombre: "Demografía y bioestadística",
@@ -272,9 +209,6 @@ module.exports = {
       tipologia: "Fundamentación optativa",
       descripcion: "Esta es la descripción de Demografía y bioestadística",
       prerequisitos: "Medicina y sociedad",
-
-
-      
     },
     {id:24,
       nombre: "Epidemiología",
@@ -284,9 +218,6 @@ module.exports = {
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Epidemiología",
       prerequisitos: "Demografía y bioestadística",
-
-
-      
     },
     {id:25,
       nombre: "Bioestadística fundamental",
@@ -295,10 +226,7 @@ module.exports = {
       cupos: 100,
       tipologia: "Fundamentación optativa",
       descripcion: "Esta es la descripción de Bioestadística fundamental",
-      prerequisitos: "Matemáticas básicas",
-
-
-      
+      prerequisitos: "Matemáticas básicas", 
     },
     {id:26,
       nombre: "Bioética",
@@ -308,11 +236,8 @@ module.exports = {
       tipologia: "Fundamentación obligatoria",
       descripcion: "Esta es la descripción de Bioética",
       prerequisitos: "ninguno",
-
-
-      
     },
-    {id:27,
+    {id:27, //--- Terapia ocupacional
       nombre: "Juego y terapia ocupacional",
       codigoMateria: 2017015,
       creditos: 2,
@@ -320,9 +245,6 @@ module.exports = {
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Juego y terapia ocupacional",
       prerequisitos: "Fundamentos de terapia ocupacional",
-
-
-      
     },
     {id:28,
       nombre: "Taller de cuerpo y movimiento",
@@ -332,9 +254,6 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Taller de cuerpo y movimiento",
       prerequisitos: "ninguno",
-
-
-      
     },
     {id:29,
       nombre: "Fundamentos en Psiquiatría",
@@ -344,9 +263,6 @@ module.exports = {
       tipologia: "Fundamentación obligatoria",
       descripcion: "Esta es la descripción de Fundamentos en Psiquiatría",
       prerequisitos: "ninguno",
-
-
-      
     },
     {id:30,
       nombre: "Fundamentos de antropología",
@@ -356,11 +272,8 @@ module.exports = {
       tipologia: "Fundamentación optativa",
       descripcion: "Esta es la descripción de Fundamentos de antropología",
       prerequisitos: "ninguno",
-
-
-      
     },
-    {id:31,
+    {id:31, //---CC
       nombre: "Algebra abstracta y computacional",
       codigoMateria: 2026555,
       creditos: 4,
@@ -368,9 +281,6 @@ module.exports = {
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Algebra abstracta y computacional",
       prerequisitos: "Introducción a la teoría de conjuntos",
-
-
-      
     },
     {id:32,
       nombre: "Compiladores",
@@ -379,10 +289,7 @@ module.exports = {
       cupos: 50,
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Compiladores",
-      prerequisitos: "Introducción a la teoría de la computación",
-
-
-      
+      prerequisitos: "Introducción a la teoría de la computación", 
     },
     {id:33,
       nombre: "Mecanica newtoniana",
@@ -392,9 +299,6 @@ module.exports = {
       tipologia: "Fundamentación optativa",
       descripcion: "Esta es la descripción de Mecanica newtoniana",
       prerequisitos: "ninguno",
-
-
-      
     },
     {id:34,
       nombre: "Sistemas numéricos",
@@ -404,9 +308,6 @@ module.exports = {
       tipologia: "Fundamentación obligatoria",
       descripcion: "Esta es la descripción de Sistemas numéricos",
       prerequisitos: "ninguno",
-
-
-      
     },
     {id:35,
       nombre: "Introducción a la inteligencia artificial",
@@ -415,12 +316,9 @@ module.exports = {
       cupos: 50,
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Introducción a la inteligencia artificial",
-      prerequisitos: "ninguno",
-
-
-      
+      prerequisitos: "ninguno", 
     },
-    {id:36,
+    {id:36,  //---Fisica
       nombre: "Fundamentos de Óptica",
       codigoMateria: 2016660,
       creditos: 3,
@@ -428,9 +326,6 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Fundamentos de Óptica",
       prerequisitos: "Calculo vectorial, Oscilaciones y ondas",
-
-
-      
     },
     {id:37,
       nombre: "Cálculo de ecuaciones diferenciales ordinarias",
@@ -440,9 +335,6 @@ module.exports = {
       tipologia: "Fundamentación obligatoria",
       descripcion: "Esta es la descripción de Cálculo de ecuaciones diferenciales ordinarias",
       prerequisitos: "Calculo integral",
-
-
-      
     },
     {id:38,
       nombre: "Electricidad y Magnetismo",
@@ -452,9 +344,6 @@ module.exports = {
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Electricidad y Magnetismo",
       prerequisitos: "Calculo integral, Calculo vectorial",
-
-
-      
     },
     {id:39,
       nombre: "Fundamentación Geofísica",
@@ -464,9 +353,6 @@ module.exports = {
       tipologia: "Fundamentación optativa",
       descripcion: "Esta es la descripción de Fundamentación Geofísica",
       prerequisitos: "Electricidad y Magnetismo, Mecanica newtoniana",
-
-
-      
     },
     {id:40,
       nombre: "Álgebra matricial",
@@ -476,11 +362,8 @@ module.exports = {
       tipologia: "Fundamentación obligatoria",
       descripcion: "Esta es la descripción de Álgebra matricial",
       prerequisitos: "Álgebra Lineal",
-
-
-      
     },
-    {id:41,
+    {id:41, //---Estadistica
       nombre: "Indicadores sociales",
       codigoMateria: 2015803,
       creditos: 3,
@@ -488,9 +371,6 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Indicadores sociales",
       prerequisitos: "ninguno",
-
-
-      
     },
     {id:42,
       nombre: "Inferencia estadística",
@@ -500,9 +380,6 @@ module.exports = {
       tipologia: "Fundamentación obligatoria",
       descripcion: "Esta es la descripción de Inferencia estadística",
       prerequisitos: "Probabilidad",
-
-
-      
     },
     {id:43,
       nombre: "Procesos estocásticos",
@@ -512,9 +389,6 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Procesos estocásticos",
       prerequisitos: "Probabilidad",
-
-
-      
     }
   ]);
   },

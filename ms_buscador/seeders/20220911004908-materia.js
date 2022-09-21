@@ -11,9 +11,6 @@ module.exports = {
       tipologia: "Fundamentación optativa",
       descripcion: "Esta es la descripción de programación de computadores",
       prerequisitos: "Ningún prerequisito",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 1,
     },
     {id:2,
       nombre: "Programación orientada a objetos",
@@ -23,9 +20,9 @@ module.exports = {
       tipologia: "Fundamentación obligatoria",
       descripcion: "Esta es la descripción de Programación orientada a objetos",
       prerequisitos: "Programación de computadores",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 1,
+
+
+      
     },
     {id:3,
       nombre: "Computación paralela y distribuida",
@@ -35,9 +32,9 @@ module.exports = {
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Computación paralela y distribuida",
       prerequisitos: "Sistemas operativos, Algoritmos ",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 1,
+
+
+      
     },
     {id:4,
       nombre: "Elementos de computadores",
@@ -47,9 +44,9 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Elementos de computadores",
       prerequisitos: "Introducción a la ingeniería de sistemas y computación",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 1,
+
+
+      
     },
     {id:5,
       nombre: "Métodos numéricos",
@@ -59,9 +56,9 @@ module.exports = {
       tipologia: "Fundamentación optativa",
       descripcion: "Esta es la descripción de Métodos numéricos",
       prerequisitos: "Cálculo en varias variables",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 1,
+
+
+      
     },
     {id:6,
       nombre: "Control",
@@ -71,9 +68,9 @@ module.exports = {
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Control",
       prerequisitos: "Señales y sistemas II",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 2,
+
+
+      
     },
     {id:7,
       nombre: "Señales y Sistemas II",
@@ -83,9 +80,9 @@ module.exports = {
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Señales y Sistemas II",
       prerequisitos: "Señales y sistemas I, Variable compleja",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 2,
+
+
+      
     },
     {id:8,
       nombre: "Automatización de Procesos de Manufactura",
@@ -95,9 +92,9 @@ module.exports = {
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Automatización de Procesos de Manufactura",
       prerequisitos: "Procesos de manufactura",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 2,
+
+
+      
     },
     {id:9,
       nombre: "Diseño Mecatrónico",
@@ -107,9 +104,9 @@ module.exports = {
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Diseño Mecatrónico",
       prerequisitos: "Resistencia de Materiales",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 2,
+
+
+      
     },
     {id:10,
       nombre: "Aislamiento eléctrico",
@@ -119,9 +116,9 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Aislamiento eléctrico",
       prerequisitos: "Transmisión y Distribución",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 3,
+
+
+      
     },
     {id:11,
       nombre: "Instalaciones eléctricas",
@@ -131,9 +128,9 @@ module.exports = {
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Instalaciones eléctricas",
       prerequisitos: "Circuitos Eléctricos II",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 3,
+
+
+      
     },
     {id:12,
       nombre: "Circuitos Eléctricos I",
@@ -143,9 +140,9 @@ module.exports = {
       tipologia: "Disciplinar olbligatoria",
       descripcion: "Esta es la descripción de Circuitos Eléctricos I",
       prerequisitos: "Álgebra Lineal",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 3,
+
+
+      
     },
     {id:13,
       nombre: "Introducción a ingeniería eléctrica",
@@ -155,9 +152,9 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Introducción a ingeniería eléctrica",
       prerequisitos: "Ninguno",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 3,
+
+
+      
     },
     {id:14,
       nombre: "Subestaciones eléctricas",
@@ -167,9 +164,9 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Subestaciones eléctricas",
       prerequisitos: "Análisis de Sistemas de Potencia",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 3,
+
+
+      
     },
     {id:15,
       nombre: "Inmunología",
@@ -179,9 +176,9 @@ module.exports = {
       tipologia: "Fundamentacion obligatoria",
       descripcion: "Esta es la descripción de Inmunología",
       prerequisitos: "Fisiología I, Genética",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 4,
+
+
+      
     },
     {id:16,
       nombre: "Hormonas",
@@ -191,9 +188,9 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Hormonas",
       prerequisitos: "Fisiología I, Fisiología y bioquímica de sistemas",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 4,
+
+
+      
     },
     {id:17,
       nombre: "Medicina y sociedad",
@@ -203,9 +200,9 @@ module.exports = {
       tipologia: "Fundamentación obligatoria",
       descripcion: "Esta es la descripción de Medicina y sociedad",
       prerequisitos: "Salud y sociedad",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 4,
+
+
+      
     },
     {id:18,
       nombre: "Salud y sociedad",
@@ -215,9 +212,9 @@ module.exports = {
       tipologia: "Fundamentación obligatoria",
       descripcion: "Esta es la descripción de Salud y sociedad",
       prerequisitos: "Ninguno",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 4,
+
+
+      
     },
     {id:19,
       nombre: "Administracion en salud I",
@@ -227,9 +224,9 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Administracion en salud I",
       prerequisitos: "Introducción a la medicina interna, Epidemiología",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 4,
+
+
+      
     },
     {id:20,
       nombre: "Atención primaria en salud",
@@ -239,9 +236,9 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Atención primaria en salud",
       prerequisitos: "Medicina y sociedad",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 4,
+
+
+      
     },
     {id:21,
       nombre: "Bioquímica clínica",
@@ -251,9 +248,9 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Bioquímica clínica",
       prerequisitos: "Bioquímica I",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 4,
+
+
+      
     },
     {id:22,
       nombre: "Comunicación científica",
@@ -263,9 +260,9 @@ module.exports = {
       tipologia: "Fundamentación optativa",
       descripcion: "Esta es la descripción de Comunicación científica",
       prerequisitos: "ninguno",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 4,
+
+
+      
     },
     {id:23,
       nombre: "Demografía y bioestadística",
@@ -275,9 +272,9 @@ module.exports = {
       tipologia: "Fundamentación optativa",
       descripcion: "Esta es la descripción de Demografía y bioestadística",
       prerequisitos: "Medicina y sociedad",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 4,
+
+
+      
     },
     {id:24,
       nombre: "Epidemiología",
@@ -287,9 +284,9 @@ module.exports = {
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Epidemiología",
       prerequisitos: "Demografía y bioestadística",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 4,
+
+
+      
     },
     {id:25,
       nombre: "Bioestadística fundamental",
@@ -299,9 +296,9 @@ module.exports = {
       tipologia: "Fundamentación optativa",
       descripcion: "Esta es la descripción de Bioestadística fundamental",
       prerequisitos: "Matemáticas básicas",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 5,
+
+
+      
     },
     {id:26,
       nombre: "Bioética",
@@ -311,9 +308,9 @@ module.exports = {
       tipologia: "Fundamentación obligatoria",
       descripcion: "Esta es la descripción de Bioética",
       prerequisitos: "ninguno",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 5,
+
+
+      
     },
     {id:27,
       nombre: "Juego y terapia ocupacional",
@@ -323,9 +320,9 @@ module.exports = {
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Juego y terapia ocupacional",
       prerequisitos: "Fundamentos de terapia ocupacional",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 5,
+
+
+      
     },
     {id:28,
       nombre: "Taller de cuerpo y movimiento",
@@ -335,9 +332,9 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Taller de cuerpo y movimiento",
       prerequisitos: "ninguno",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 5,
+
+
+      
     },
     {id:29,
       nombre: "Fundamentos en Psiquiatría",
@@ -347,9 +344,9 @@ module.exports = {
       tipologia: "Fundamentación obligatoria",
       descripcion: "Esta es la descripción de Fundamentos en Psiquiatría",
       prerequisitos: "ninguno",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 5,
+
+
+      
     },
     {id:30,
       nombre: "Fundamentos de antropología",
@@ -359,9 +356,9 @@ module.exports = {
       tipologia: "Fundamentación optativa",
       descripcion: "Esta es la descripción de Fundamentos de antropología",
       prerequisitos: "ninguno",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 5,
+
+
+      
     },
     {id:31,
       nombre: "Algebra abstracta y computacional",
@@ -371,9 +368,9 @@ module.exports = {
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Algebra abstracta y computacional",
       prerequisitos: "Introducción a la teoría de conjuntos",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 6,
+
+
+      
     },
     {id:32,
       nombre: "Compiladores",
@@ -383,9 +380,9 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Compiladores",
       prerequisitos: "Introducción a la teoría de la computación",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 6,
+
+
+      
     },
     {id:33,
       nombre: "Mecanica newtoniana",
@@ -395,9 +392,9 @@ module.exports = {
       tipologia: "Fundamentación optativa",
       descripcion: "Esta es la descripción de Mecanica newtoniana",
       prerequisitos: "ninguno",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 6,
+
+
+      
     },
     {id:34,
       nombre: "Sistemas numéricos",
@@ -407,9 +404,9 @@ module.exports = {
       tipologia: "Fundamentación obligatoria",
       descripcion: "Esta es la descripción de Sistemas numéricos",
       prerequisitos: "ninguno",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 6,
+
+
+      
     },
     {id:35,
       nombre: "Introducción a la inteligencia artificial",
@@ -419,9 +416,9 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Introducción a la inteligencia artificial",
       prerequisitos: "ninguno",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 6,
+
+
+      
     },
     {id:36,
       nombre: "Fundamentos de Óptica",
@@ -431,9 +428,9 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Fundamentos de Óptica",
       prerequisitos: "Calculo vectorial, Oscilaciones y ondas",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 7,
+
+
+      
     },
     {id:37,
       nombre: "Cálculo de ecuaciones diferenciales ordinarias",
@@ -443,9 +440,9 @@ module.exports = {
       tipologia: "Fundamentación obligatoria",
       descripcion: "Esta es la descripción de Cálculo de ecuaciones diferenciales ordinarias",
       prerequisitos: "Calculo integral",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 7,
+
+
+      
     },
     {id:38,
       nombre: "Electricidad y Magnetismo",
@@ -455,9 +452,9 @@ module.exports = {
       tipologia: "Disciplinar obligatoria",
       descripcion: "Esta es la descripción de Electricidad y Magnetismo",
       prerequisitos: "Calculo integral, Calculo vectorial",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 7,
+
+
+      
     },
     {id:39,
       nombre: "Fundamentación Geofísica",
@@ -467,9 +464,9 @@ module.exports = {
       tipologia: "Fundamentación optativa",
       descripcion: "Esta es la descripción de Fundamentación Geofísica",
       prerequisitos: "Electricidad y Magnetismo, Mecanica newtoniana",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 7,
+
+
+      
     },
     {id:40,
       nombre: "Álgebra matricial",
@@ -479,9 +476,9 @@ module.exports = {
       tipologia: "Fundamentación obligatoria",
       descripcion: "Esta es la descripción de Álgebra matricial",
       prerequisitos: "Álgebra Lineal",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 8,
+
+
+      
     },
     {id:41,
       nombre: "Indicadores sociales",
@@ -491,9 +488,9 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Indicadores sociales",
       prerequisitos: "ninguno",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 8,
+
+
+      
     },
     {id:42,
       nombre: "Inferencia estadística",
@@ -503,9 +500,9 @@ module.exports = {
       tipologia: "Fundamentación obligatoria",
       descripcion: "Esta es la descripción de Inferencia estadística",
       prerequisitos: "Probabilidad",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 8,
+
+
+      
     },
     {id:43,
       nombre: "Procesos estocásticos",
@@ -515,9 +512,9 @@ module.exports = {
       tipologia: "Disciplinar optativa",
       descripcion: "Esta es la descripción de Procesos estocásticos",
       prerequisitos: "Probabilidad",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      PlanEstudioId: 8,
+
+
+      
     }
   ]);
   },
